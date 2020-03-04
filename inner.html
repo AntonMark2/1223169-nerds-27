@@ -12,131 +12,143 @@
           <ul>
             <li><a href="#">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
-            <li class="site-navigation-current"><a href="#">Магазин</a></li>
+            <li><a class="site-navigation-current">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
           <a href="#"><img src="img/cart-icon.svg">корзина</a>
         </nav>
       </header>
-      <main>
-        <div>
-          <p><b>стоимость</b></p>
-          <p><b>сортировать:</b></p>
-          <p>по цене</p>
-          <p>по типу</p>
-          <p>по назначению</p>
-          <img src="img/icon-down-dir.svg"></img>
-          <img src="img/icon-up-dir.svg"></img>
-        </div>
+      <main class="content">
         <form action="https://echo.htmlacademy.ru/courses" method="post">
-          <input type="range">
+          <section>
+            <h2>Стоимость:</h2>
+            <input type="range">
+          </section>
           <br>
-          от<input type="от" value="0" >
-          до<input type="до" value="10">
-          <br>
-          <br>
-          <b>Сетка:</b><br>
-          <label for="a1-field">
-            <input type="radio" name="question-one"  id="a1-field" value="a1">адаптация
-          </label>
-          <Br>
-            <label for="a2-field">
-              <input type="radio"  name="question-one" id="a2-field" value="a2">фиксированная
-            </label>
-            <Br>
-              <label for="a3-field">
+          <div>
+            <h2>Сетка:</h2><br>
+            <ul>
+              <li><label for="a1-field">
+                <input type="radio" name="question-one"  id="a1-field" value="a1">адаптация
+              </label></li>
+              <br>
+              <li><label for="a2-field">
+                <input type="radio"  name="question-one" id="a2-field" value="a2">фиксированная
+              </label></li>
+              <br>
+              <li><label for="a3-field">
                 <input type="radio" name="question-one"  id="a3-field" value="a3" checked>резиновая
-              </label>
-              <br>
-              <br>
-              <b>Особенности:</b>
-              <br>
-              <label for="b1-field">
+              </label></li>
+            </ul>
+          </div>
+          <br>
+          <div>
+            <h2>Особенности:</h2>
+            <ul>
+              <li><label for="b1-field">
                 <input type="checkbox" name="slader" id="b1-field">слайдер<br>
-                <label for="b2-field">
-                  <input type="checkbox" name="block" id="b2-field">блок преимуществ<br>
-                  <label for="b3-field">
-                    <input type="checkbox" name="nwes" id="b3-field">новости<br>
-                    <label for="b4-field">
-                      <input type="checkbox" name="galary" id="b4-field">галерея<br>
-                      <label for="b5-field">
-                        <input type="checkbox" name="basket" id="b5-field">корзина
-                        <br>
-                        <br>
-                        <input type="submit" value="показать">
-                      </form>
-                      <article>
-                        <ul>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="sedona.html"><img src="img/sedona1.png" width="360" height="576" alt="путеводитель>"></img></a>
-                          </li>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="pink2.html"><img src="img/pink2.png" width="360" height="576" alt="приложения"></img></a>
-                          </li>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="barbershop3.html"><img src="img/barbershop3.png" width="360" height="576" alt="салон стрижки бороды"></img></a>
-                          </li>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="mishka4.html"><img src="img/mishka4.png" width="360" height="576" alt="товары для дома ручной работы"></img></a>
-                          </li>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="aplus5.html"><img src="img/aplus5.png" width="360" height="576" alt="онлайн курсы"></img></a>
-                          </li>
-                          <li>
-                            <img src="img/browser.svg" width="360" height="40"</img><br>
-                            <a href="kvast6.html"><img src="img/kvast6.png" width="360" height="576" alt="безалкогольные напитки"></img></a>
-                          </li>
-                        </ul>
-                      </article>
-                      <article>
-                        <ul>
-                          <li><a>1</a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">следующая</a></li>
-                        </ul>
-                      </article>
-                        <div class="maps">
-                          <p><b>nerds design studio</b></p>
-                          <p>191186, Санкт-Петербург,<br>
-                            ул. Б.Конюшенная, д.19/8</p>
-                            <p>тел. +7(812)275-75-75</p>
-                            <a href="#">напишите нам</a>
-                            <form action="https://echo.htmlacademy.ru" method="post">
-                              <b>напишите нам</b>
-                              <label for="username-field">ваше имя:
-                                <br>
-                                <input type="text" name="username" value="Имя фамилия" id="username-field">
-                              </label>
-                              <label for="email-field">
-                                Ваш e-email:
-                                <input type="email" name="email" value="anton@email.ru" id="email-field">
-                                <br>
-                              </label>
-                              <label for="comment-field">
-                                <br>
-                                Текст письма:<br>
-                                <textarea name="comment" id="comment-field" rows="5" cols="70">Текст комментария</textarea>
-                              </label>
-                              <input type="submit" value="отправить">
-                            </form>
-                          </div>
-                        </article>
-                        <footer>
-                          <ul>
-                            <li><a href="instagram.html">Инстаграм</a></li>
-                            <li><a href="vkontacte.html">Вконтакте</a></li>
-                            <li><a href="Facebookb.html">Facebook</a></li>
-                          </ul>
-                          <div>
-                            <h3>давайте дружить, это выгодно!"</h3>
-                            <p>скидка 10% для друзей из социальных сетей.</p>
-                          </div>
-                        </footer>
-                      </body>
-                      </html>
+              </label></li>
+              <li><label for="b2-field">
+                <input type="checkbox" name="block" id="b2-field">блок преимуществ<br>
+              </label></li>
+              <li><label for="b3-field">
+                <input type="checkbox" name="nwes" id="b3-field">новости<br>
+              </label></li>
+              <li><label for="b4-field">
+                <input type="checkbox" name="galary" id="b4-field">галерея<br>
+              </label></li>
+              <li><label for="b5-field">
+                <input type="checkbox" name="basket" id="b5-field">корзина
+                <br>
+              </label></li>
+            </ul>
+          </div>
+          <br>
+          <button type="submit">показать</button>
+        </form>
+        <section>
+          <div>
+            <h2>сортировать:</h2>
+            <ul>
+              <li><a>по цене</a></li>
+              <li><a href="#">по типу</a></li>
+              <li><a href="#">по назначению</a></li>
+              <li><a><img src="img/icon-down-dir.svg"></img></a></li>
+              <li><a href="#"><img src="img/icon-up-dir.svg"></img></a></li>
+            </ul>
+          </div>
+          <article>
+            <ul>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="sedona.html"><img src="img/sedona1.png" width="360" height="576" alt="путеводитель>"></img></a>
+              </li>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="pink2.html"><img src="img/pink2.png" width="360" height="576" alt="приложения"></img></a>
+              </li>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="barbershop3.html"><img src="img/barbershop3.png" width="360" height="576" alt="салон стрижки бороды"></img></a>
+              </li>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="mishka4.html"><img src="img/mishka4.png" width="360" height="576" alt="товары для дома ручной работы"></img></a>
+              </li>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="aplus5.html"><img src="img/aplus5.png" width="360" height="576" alt="онлайн курсы"></img></a>
+              </li>
+              <li>
+                <img src="img/browser.svg" width="360" height="40"</img><br>
+                <a href="kvast6.html"><img src="img/kvast6.png" width="360" height="576" alt="безалкогольные напитки"></img></a>
+              </li>
+            </ul>
+          </article>
+        <ul>
+          <li><a>1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">следующая</a></li>
+        </ul>
+      </section>
+        <div class="maps">
+          <p><b>nerds design studio</b></p>
+          <p>191186, Санкт-Петербург,<br>
+            ул. Б.Конюшенная, д.19/8</p>
+            <p>тел. +7(812)275-75-75</p>
+            <a href="#">напишите нам</a>
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <h2>напишите нам</h2>
+              <label for="username-field">ваше имя:
+                <br>
+                <input type="text" name="username" value="Имя фамилия" id="username-field">
+              </label>
+              <label for="email-field">
+                Ваш e-email:
+                <input type="email" name="email" value="anton@email.ru" id="email-field">
+                <br>
+              </label>
+              <label for="comment-field">
+                <br>
+                Текст письма:<br>
+                <textarea name="comment" id="comment-field" rows="5" cols="70">Текст комментария</textarea>
+              </label>
+              <button type="submit" value="отправить">
+            </form>
+          </div>
+        </article>
+      </main class="content">
+        <footer>
+          <ul>
+            <li><a>Инстаграм</a></li>
+            <li><a>Вконтакте</a></li>
+            <li><a>Facebook</a></li>
+          </ul>
+          <div>
+            <h3>давайте дружить, это выгодно!"</h3>
+            <p>скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </footer>
+      </body>
+      </html>
