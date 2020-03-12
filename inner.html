@@ -1,154 +1,173 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h2>Магазин готовых шаблонов<h2>
-          <a href="index.html"><img src="img/nerds-logo.svg" width="160" height="67" alt="лого"></a>
-          <ul>
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a class="site-navigation-current">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-          <a href="#"><img src="img/cart-icon.svg">корзина</a>
-        </nav>
-      </header>
-      <main class="content">
-        <form action="https://echo.htmlacademy.ru/courses" method="post">
-          <section>
-            <b>Стоимость:</b>
-            <input type="range">
-          </section>
-          <br>
-          <div>
-            <b>Сетка:</b><br>
-            <ul>
-              <li><label for="a1-field">
-                <input type="radio" name="question-one"  id="a1-field" value="a1">адаптация
-              </label></li>
-              <br>
-              <li><label for="a2-field">
-                <input type="radio"  name="question-one" id="a2-field" value="a2">фиксированная
-              </label></li>
-              <br>
-              <li><label for="a3-field">
-                <input type="radio" name="question-one"  id="a3-field" value="a3" checked>резиновая
-              </label></li>
-            </ul>
+    <title>nerds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+  <nav class="main-navigation">
+    <a href="index.html" class="main-header-logo">
+      <img src="img/header-logo/logo.png" width="160" height="65" alt="Логотип Нёрдс">
+    </a>
+    <ul class="site-navigation">
+      <li><a class="site-link" href="index.html">Студия</a></li>
+      <li><a class="site-link" href="#">Клиенты</a></li>
+      <li><a class="site-link" href="#">Магазин</a></li>
+      <li><a class="site-link" href="#">Контакты</a></li>
+      <li><a class="site-link" href="#">Корзина</a></li>
+    </ul>
+  </nav>
+</header>
+<!=====main=====>
+<main class="container">
+  <h1 class="page-title">Магазин готовых шаблонов</h1>
+  <div class="filtr-product">
+    <div>
+      <input type="range">
+    </div>
+    <div>
+      <h2>Сетка:</h2>
+      <p>
+        <label for="a1-field">
+          <input type="radio" name="question-one"  id="a1-field" value="a1">адаптация</label>
+        </p>
+        <p>
+          <label for="a2-field">
+            <input type="radio"  name="question-one" id="a2-field" value="a2">фиксированная</label>
+          </p>
+          <p>
+            <label for="a3-field">
+              <input type="radio" name="question-one"  id="a3-field" value="a3" checked>резиновая</label>
+            </p>
           </div>
-          <br>
           <div>
-            <b>Особенности:</b>
-            <ul>
-              <li><label for="b1-field">
+            <h2 class="input__checkbox">Особенности:</h2>
+            <p>
+              <label for="b1-field">
                 <input type="checkbox" name="slader" id="b1-field">слайдер<br>
-              </label></li>
-              <li><label for="b2-field">
+              </label>
+            </p>
+            <p>
+              <label for="b2-field">
                 <input type="checkbox" name="block" id="b2-field">блок преимуществ<br>
-              </label></li>
-              <li><label for="b3-field">
+              </label>
+            </p>
+            <p>
+              <label for="b3-field">
                 <input type="checkbox" name="nwes" id="b3-field">новости<br>
-              </label></li>
-              <li><label for="b4-field">
+              </label>
+            </p>
+            <p>
+              <label for="b4-field">
                 <input type="checkbox" name="galary" id="b4-field">галерея<br>
-              </label></li>
-              <li><label for="b5-field">
+              </label>
+            </p>
+            <p>
+              <label for="b5-field">
                 <input type="checkbox" name="basket" id="b5-field">корзина
-                <br>
-              </label></li>
-            </ul>
+              </label>
+            </p>
           </div>
-          <br>
-          <button type="submit">показать</button>
+          <button class="button-product" type="submit">ПОКАЗАТЬ</button>
+        </div>
+        <div class="product">
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_1.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <button class="button-1" type="submit">9 900 руб.</button>
+            </div>
+          </div>
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_2.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <a href="#">9 900руб.</a>
+            </div>
+          </div>
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_3.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <a href="#">9 900руб.</a>
+            </div>
+          </div>
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_4.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <a href="#">9 900руб.</a>
+            </div>
+          </div>
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_5.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <a href="#">9 900руб.</a>
+            </div>
+          </div>
+          <div class="product__item">
+            <img src="img/product/pro_7.png"><br>
+            <img src="img/product/pro_6.jpg">
+            <div class="product__content">
+              <div class="product__title">Sedona</div>
+              <div class="product__text">Информационный сайт для туристов</div>
+              <a href="#">9 900руб.</a>
+            </div>
+          </div>
+          <a class="product__list" href="inner.html">1</a>
+          <a class="product__list" href="#">2</a>
+          <a class="product__list" href="#">3</a>
+          <a class="product__next" href="#">следующая</a>
+        </div>
+        <form action="https://echo.htmlacademy.ru" method="post" class="popup">
+          <h2>напишите нам</h2>
+          <p>
+            <label for="username-field">ваше имя:
+              <input class="input-text" type="text" name="username" value="Имя фамилия" id="username-field">
+            </label>
+          </p>
+          <p>
+            <label for="email-field">Ваш e-email:<br>
+              <input class="input-email" type="email" name="email" value="anton@email.ru" id="email-field">
+            </label><br>
+          </p>
+          <p>
+            <label for="comment-field">Текст письма:
+              <textarea class="input-textarea" name="comment" id="comment-field" rows="5" cols="70">в свободной форме</textarea>
+            </label>
+          </p>
+          <p>
+            <button class="button" type="submit">Отправить</button>
+            <label class="clous" for="modal">+</label>
+          </p>
         </form>
-        <section>
-          <div>
-            <h2>сортировать:</h2>
-            <ul>
-              <li><a>по цене</a></li>
-              <li><a href="#">по типу</a></li>
-              <li><a href="#">по назначению</a></li>
-              <li><a><img src="img/icon-down-dir.svg"></img></a></li>
-              <li><a href="#"><img src="img/icon-up-dir.svg"></img></a></li>
+        <footer class="main-footer">
+          <div class="footer-social">
+            <ul class="social-list">
+              <li><a class="social-button" href="#" ><img src="img/social/vk-icon.svg" class="vk-icon" alt="Вконтакте"></a></li>
+              <li><a class="social-button" href="#"><img src="img/social/fb-icon.svg" class="fb-icon" alt="Фейсбук"></a></li>
+              <li><a class="social-button" href="#"><img src="img/social/insta-icon.svg" class="insta-icon" alt="Инстаграм"></a></li>
             </ul>
           </div>
-          <article>
-            <ul>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="sedona.html"><img src="img/sedona1.png" width="360" height="576" alt="путеводитель>"></img></a>
-              </li>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="pink2.html"><img src="img/pink2.png" width="360" height="576" alt="приложения"></img></a>
-              </li>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="barbershop3.html"><img src="img/barbershop3.png" width="360" height="576" alt="салон стрижки бороды"></img></a>
-              </li>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="mishka4.html"><img src="img/mishka4.png" width="360" height="576" alt="товары для дома ручной работы"></img></a>
-              </li>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="aplus5.html"><img src="img/aplus5.png" width="360" height="576" alt="онлайн курсы"></img></a>
-              </li>
-              <li>
-                <img src="img/browser.svg" width="360" height="40"</img><br>
-                <a href="kvast6.html"><img src="img/kvast6.png" width="360" height="576" alt="безалкогольные напитки"></img></a>
-              </li>
-            </ul>
-          </article>
-        <ul>
-          <li><a>1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">следующая</a></li>
-        </ul>
-      </section>
-        <div class="maps">
-          <p><b>nerds design studio</b></p>
-          <p>191186, Санкт-Петербург,<br>
-            ул. Б.Конюшенная, д.19/8</p>
-            <p>тел. +7(812)275-75-75</p>
-            <a href="#">напишите нам</a>
-            <form action="https://echo.htmlacademy.ru" method="post">
-              <b>напишите нам</b>
-              <label for="username-field">ваше имя:
-                <br>
-                <input type="text" name="username" value="Имя фамилия" id="username-field">
-              </label>
-              <label for="email-field">
-                Ваш e-email:
-                <input type="email" name="email" value="anton@email.ru" id="email-field">
-                <br>
-              </label>
-              <label for="comment-field">
-                <br>
-                Текст письма:<br>
-                <textarea name="comment" id="comment-field" rows="5" cols="70">Текст комментария</textarea>
-              </label>
-              <button type="submit" value="отправить">
-            </form>
-          </div>
-        </article>
-      </main class="content">
-        <footer>
-          <ul>
-            <li><a>Инстаграм</a></li>
-            <li><a>Вконтакте</a></li>
-            <li><a>Facebook</a></li>
-          </ul>
-          <div>
-            <h3>давайте дружить, это выгодно!"</h3>
-            <p>скидка 10% для друзей из социальных сетей.</p>
+          <div class="footer-text">
+            <p class="footer-title">Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
           </div>
         </footer>
-      </body>
-      </html>
+      </main>
+      <html>
