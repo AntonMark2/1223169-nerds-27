@@ -21,7 +21,7 @@
         <a class="nav-link" href="#">Контакты</a>
       </nav>
       <div class="bascet">
-        <img src="img/header-logo/bascet-icon.png" alt="корзина">
+        <img class="bascet-logo" src="img/header-logo/bascet-icon.png" alt="корзина">
         <a class="nav-link" href="#">Корзина</a>
       </div>
     </div>
@@ -136,25 +136,51 @@
         </div>
       </div>
     </div>
+    <div class="paginacia">
+      <a class="paginacia-item-1" href="inner.html">1</a>
+     <a class="paginacia-item-2" href="#">2</a>
+     <a class="paginacia-item-3" href="#">3</a>
+     <a class="paginacia-item-4" href="#">следующая</a>
+    </div>
   </div>
 </div>
 </main>
-<form action="https://echo.htmlacademy.ru" method="post" class="popup">
-  <h2>напишите нам</h2>
-  <p><label for="username-field">ваше имя:
-    <input class="input-text" type="text" name="username" value="Имя фамилия" id="username-field"></label>
-  </p>
-  <p><label for="email-field">Ваш e-email:<br>
-    <input class="input-email" type="email" name="email" value="anton@email.ru" id="email-field"></label><br>
-  </p>
-  <p><label for="comment-field">Текст письма:
-    <textarea class="input-textarea" name="comment" id="comment-field" rows="5" cols="70">в свободной форме</textarea></label>
-  </p>
-  <p>
-    <button class="button" type="submit">Отправить</button>
-    <label class="clous" for="modal">+</label>
-  </p>
+<div class="map">
+  <div class="map-item">
+    <img class="map-photo" src="img/map/2.jpg" alt="карта">
+    <img class="map-marker" src="img/map/map-marker-png.svg" alt="">
+    <div class="contacts">
+      <div class="contacts-title">NЁRDS DESIGN STUDIO</div>
+      <div class="contacts-text">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</div>
+      <input type="checkbox" name="" id="modal">
+      <label class="contacts-button" name="Напишите нам" for="modal">Напишите нам</label>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+<form  class="popup" action="https://echo.htmlacademy.ru" method="post">
+    <h2>напишите нам</h2>
+    <p>
+        <label for="username-field">ваше имя:
+            <input class="input-text" type="text" name="username" value="Имя фамилия" id="username-field">
+        </label>
+    </p>
+    <p>
+        <label for="email-field">Ваш e-email:<br>
+            <input class="input-email" type="email" name="email" value="anton@email.ru" id="email-field">
+        </label><br>
+    </p>
+    <p>
+        <label for="comment-field">Текст письма:
+            <textarea class="input-textarea" name="comment" id="comment-field" rows="5" cols="70">в свободной форме</textarea>
+        </label>
+    </p>
+    <p>
+        <input class="submit" type="submit" name="" id="">
+        <label class="clous" for="modal">+</label>
+    </p>
 </form>
+</div>
 <footer class="main-footer">
   <div class="container">
     <div class="footer-social">
