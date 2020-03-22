@@ -12,7 +12,7 @@
   <div class="container">
     <div class="header-inner">
       <div class="header-logo">
-        <img src="img/header-logo/logo.png" alt="логотп нердс">
+        <img class="header-logo" src="img/header-logo/logo.png" alt="логотп нердс">
       </div>
       <nav class="nav">
         <a class="nav-link" href="#">Студия</a>
@@ -58,30 +58,22 @@
     </div>
   </div>
 </div>
-<form class="popup" action="https://echo.htmlacademy.ru" method="post">
-  <h2>напишите нам</h2>
-  <p>
-    <label for="username-field">ваше имя:
-      <input class="input-text" type="text" name="username" value="Имя фамилия" id="username-field">
-    </label>
-  </p>
-  <p>
-    <label for="email-field">Ваш e-email:<br>
-      <input class="input-email" type="email" name="email" value="anton@email.ru" id="email-field">
-    </label><br>
-  </p>
-  <p>
-    <label for="comment-field">Текст письма:
-      <textarea class="input-textarea" name="comment" id="comment-field" rows="5" cols="70">в свободной форме</textarea>
-    </label>
-  </p>
-  <p>
-    <button class="button" type="submit">Отправить</button>
-    <label class="clous" for="modal">+</label>
-  </p>
-</form>
 </main>
+<div class="addres">
+    <div class="wrapper">
+      <img class="map-photo" src="img/map/2.jpg" alt="карта">
+      <div class="map-item">
+        <div class="contacts">
+          <div class="contacts-title">NЁRDS DESIGN STUDIO</div>
+          <div class="contacts-text">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</div>
+          <input type="checkbox" name="" id="modal">
+          <label class="contacts-button" name="Напишите нам" for="modal">Напишите нам</label>
+        </div>
+      </div>
+    </div>
+  </div>
 <footer class="main-footer">
+  <div class="footer">
   <div class="container">
     <div class="footer-social">
       <div class="social-list">
@@ -95,6 +87,31 @@
       </div>
     </div>
   </div>
+  </div>
 </footer>
+
+<div class="layout">
+  <form class="popup" action="index.html" method="post">
+    <h3 class="popup-title">Напишите нам</h3>
+    <div class="imputs-fields">
+      <div class="field">
+        <label for="text">Ваше имя:</label>
+        <input type="text" name="name" id="text" value="Имя Фамилия">
+      </div>
+
+      <div class="field">
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" name="email" id="email" value="email@example.com">
+      </div>
+    </div>
+
+    <div class="field field-textarea">
+      <label for="textarea">Текст письма:</label>
+      <textarea name="textarea" id="textarea" rows="10" cols="100px">В свободной форме</textarea>
+    </div>
+      <button type="submit" name="button">ОТПРАВИТЬ</button>
+  </form>
+</div>
+
 </body>
 </html>
