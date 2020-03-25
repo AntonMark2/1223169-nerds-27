@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <title>Нердс-Каталог</title>
+</head>
+<body>
+<!-- HEADER-CATALOG -->
+<header class="catalog">
+   <div class="container">
+       <div class="header-inner">
+           <div class="header-logo">
+               <a href="index.html"><img src="img/nerds-logo.svg" alt="логотип нёрдс"></a>
+           </div>
+           <nav class="nav">
+               <a class="nav-link" href="index.html">Студия</a>
+               <a class="nav-link" href="#">Клиенты</a>
+               <a class="nav-link" href="#">Магазин</a>
+               <a class="nav-link" href="#">Контакты</a>
+               <a class="nav-link" href="#"><img class="basket-icon" src="img/icon/basket.png" alt="">Корзина</a>
+           </nav>
+       </div>
+       <h2 class="catalog-title">Магазин готовых шаблонов</h2>
+   </div>
+</header>
+<main class="main-content">
+<div class="container">
+<div class="main-inner">
+    <div class="form">
+    <form method="get" action="https://echo.htmlacademy.ru">
+                 <fieldset class="filter-item">
+                  <legend>Стоимость:</legend>
+                      <div class="range-filter">
+                          <div class="range-controls">
+                              <div class="scale">
+                              <div class="bar"></div>
+                              </div>
+                              <div class="toggle toggle-min"></div>
+                              <div class="toggle toggle-max"></div>
+                          </div>
+                          <div class="price-controls">
+                           <label class="min-price">от <input name="min-price" type="number" value="0"></label>
+                           <label class="max-price">до <input name="max-price" type="number" value="15000"></label>
+                         </div>
+                      </div>
+                   <div class="filtr-radio">
+                       <legend class="legend">Стоимость:</legend>
+                        <p><label class="radio" for="a1-field">
+                        <input class="radio" type="radio" name="question-one"  id="a1-field" value="a1">адаптация</label>
+                        </p>
+                        <p><label class="radio" for="a2-field">
+                        <input class="radio" type="radio"  name="question-one" id="a2-field" value="a2">фиксированная</label>
+                        </p>
+                        <p><label class="radio" for="a3-field">
+                        <input class="radio" type="radio" name="question-one"  id="a3-field" value="a3" checked>резиновая</label>
+                        </p>
+                   </div>
+                   <div class="filtr-checkbox">
+                       <legend>ОСОБЕННОСТИ:</legend>
+                         <p><label class="radio" for="b1-field">
+                         <input class="radio" type="checkbox" name="slader" id="b1-field">слайдер<br></label>
+                        </p>
+                        <p><label class="radio" for="b2-field">
+                        <input class="radio" type="checkbox" name="block" id="b2-field">блок преимуществ<br></label>
+                        </p>
+                        <p><label class="radio" for="b3-field">
+                        <input class="radio" type="checkbox" name="nwes" id="b3-field">новости<br></label>
+                        </p>
+                        <p><label class="radio" for="b4-field">
+                        <input class="radio" type="checkbox" name="galary" id="b4-field">галерея<br></label>
+                        </p>
+                        <p><label class="radio" for="b5-field">
+                        <input class="radio" type="checkbox" name="basket" id="b5-field">корзина</label>
+                        </p>
+                    </div>
+                    <button class="filter-button" type="submit">ПОКАЗАТЬ</button>
+        </fieldset>
+    </form>
+</div>
+<div class="products">
+    <div class="products-list">
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-1.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">Sedona</h3>
+                <p class="product-subtitle">Информационный сайт<br>для туристов</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-2.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">Pink App</h3>
+                <p class="product-subtitle">Продуктовый лендинг<br>приложения для iOS и Android</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-3.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">Barbershop</h3>
+                <p class="product-subtitle">Сайт салона красоты. Для<br>мужчин, да.</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-4.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">MISHKA</h3>
+                <p class="product-subtitle">Интернет-магазин<br>вязаных игрушек</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-5.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">A Plus</h3>
+                <p class="product-subtitle">Лендинг курсов повышения<br>квалификации</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img class="photo-header" src="img/products/item-0.svg" alt="">
+            <img class="photo-item" src="img/products/item-6.png" alt="">
+            <div class="product-text">
+                <h3 class="product-title">КВАСТ</h3>
+                <p class="product-subtitle">Промо-сайт производителя<br>крафтового кваса</p>
+                <button class="button-product" type="submit">9 900 руб.</button>
+            </div>
+        </div>
+        <div class="paginacia">
+            <a class="paginacia-item-1" href="inner.html">1</a>
+            <a class="paginacia-item-2" href="#">2</a>
+            <a class="paginacia-item-3" href="#">3</a>
+            <a class="paginacia-item-4" href="#">следующая</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</main>
+<section class="map">
+<div class="map-inner">
+    <div class="contacts">
+        <h3 class="contacts-title">NЁRDS DESIGN STUDIO</h3>
+        <p class="contacts-subtitle">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>
+        тел. +7 (812) 275-75-75</p>
+        <input type="checkbox" name="" id="modal">
+        <label class="contacts-button" name="Напишите нам" for="modal">Напишите нам</label>
+    </div>
+<div class="layout">
+<form class="popup" action="index.html" method="post">
+<h3 class="popup-title">Напишите нам</h3>
+    <div class="imputs-fields">
+      <div class="field">
+        <label for="text">Ваше имя:</label>
+        <input type="text" name="name" id="text" value="Имя Фамилия">
+      </div>
+      <div class="field">
+        <label for="email">Ваш e-mail:</label>
+        <input type="email" name="email" id="email" value="email@example.com">
+      </div>
+    </div>
+    <div class="field field-textarea">
+      <label for="textarea">Текст письма:</label>
+      <textarea name="textarea" id="textarea" rows="10" cols="100px">В свободной форме</textarea>
+    </div>
+      <button type="submit" name="button">ОТПРАВИТЬ</button>
+</form>
+</div>
+</div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="social-list">
+                <a class="social" href="#"><img src="img/social/vk-1.png" alt=""></a>
+                <a class="social" href="#"><img src="img/social/fb-2.png" alt=""></a>
+                <a class="social" href="#"><img src="img/social/insta-3.png" alt=""></a>
+            </div>
+            <div class="footer-text">
+                <h3 class="footer-title">Давайте дружить, это выгодно!</h3>
+                <p class="footer-subtitle">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
