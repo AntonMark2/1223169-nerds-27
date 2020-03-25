@@ -15,10 +15,8 @@ body{
     box-sizing: border-box;
 }
 
-
 /* CONTAINER
 =======================*/
-
 
 .container{
     width: 100%;
@@ -28,7 +26,6 @@ body{
 
 /* HEADER
 =======================*/
-
 
 .header{
     height: 132px;
@@ -51,10 +48,8 @@ body{
     padding-top: 49px;
 }
 
-
 /* nav
 =======================*/
-
 
 .nav{
     display: flex;
@@ -84,10 +79,8 @@ body{
     margin-left: 209px;
 }
 
-
 /* INTRO
 =======================*/
-
 
 .intro{
     height: 100%;
@@ -160,10 +153,8 @@ body{
     height: 413px;
 }
 
-
 /* ADVANTAGE
 =======================*/
-
 
 .advantage-list{
     display: flex;
@@ -275,10 +266,8 @@ body{
     background-color: #e5a722;
 }
 
-
 /* ABOUTUS
 =======================*/
-
 
 .aboutus-inner{
     display: flex;
@@ -393,10 +382,8 @@ body{
     color: #283136;
 }
 
-
 /* PARTNERS
 =======================*/
-
 
 .partners-inner{
     display: flex;
@@ -423,10 +410,8 @@ body{
     border-right: none;
 }
 
-
 /* MAP
 =======================*/
-
 
 .map{
     height: 416px;
@@ -499,10 +484,8 @@ body{
     background-color: #d7373b;
 }
 
-
 /* FOOTER
 =======================*/
-
 
 .footer-inner{
     display: flex;
@@ -558,10 +541,8 @@ body{
     margin-top: 0px;
 }
 
-
 /* CATALOG-NERDS
 =======================*/
-
 
 .catalog{
     height: 355px;
@@ -582,10 +563,8 @@ body{
     margin-top: 0px;
 }
 
-
 /* RANGE
 =======================*/
-
 
 .filter-item {
     margin: 0;
@@ -673,7 +652,6 @@ body{
 
 /* FORM
 =======================*/
-
 
 .form{
     width: 260px;
@@ -795,12 +773,8 @@ body{
     cursor: pointer;
 }
 
-
-
 /* PAGINACIA
 =======================*/
-
-
 
 .paginacia{
     margin-top: 60px;
@@ -878,13 +852,8 @@ body{
    text-decoration: none;
 }
 
-
-
 /* POPUP
 =======================*/
-
-
-
 
 .layout{
   display: flex;
